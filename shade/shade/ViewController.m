@@ -41,7 +41,7 @@
     UIView* navView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, kNavHeight)];
     
     navView.backgroundColor = [UIColor clearColor];
-    
+    navView.alpha = 0.0;
     self.navView = navView;
     
     [self.view addSubview:navView];
